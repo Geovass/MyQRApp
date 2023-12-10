@@ -8,6 +8,7 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -19,6 +20,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyQRApp"
         tools:targetApi="33">
+        <activity
+            android:name=".ContactsList"
+            android:exported="false" />
         <activity
             android:name=".QRScanner"
             android:exported="false" />

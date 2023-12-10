@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MyQRApp</string>
+    <string name="mis_contactos">Mis contactos</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="telefono">Teléfono</string>
+    <string name="qr_no_valido">El código QR no es válido para la aplicación</string>
+    <string name="error">Error</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="mailto">mailto:%1$s</string>
 </resources>
